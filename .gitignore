@@ -1,0 +1,32 @@
+# Игнорировать виртуальное окружение
+.venv/
+.env
+
+# Кэш-файлы Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Лог-файлы
+*.log
+
+# Настройки IDE
+.vscode/
+.idea/
+*.iml
+
+# Файлы зависимостей
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Артефакты сборки
+build/
+dist/
+*.egg-info
+
+# Файлы Jupyter Notebook output
+.ipynb_checkpoints/
+package-lock.json
+package.json
+py-qt-desiner/
